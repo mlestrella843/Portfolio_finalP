@@ -1,0 +1,185 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header_contact {
+  width: 100%;
+  height: 40vh;
+  background-color: #29B6F6;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
+
+/*nueva nav bar*/
+nav {
+  margin: 0%;
+  width: 100%;
+  background-color: #66BB6A;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-horizontal {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+  background-color: #FB8C00;
+}
+
+.menu-vertical {
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: #66BB6A;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+
+.menu-vertical li:hover {
+  background-color: #FB8C00;
+}
+
+.menu-vertical li a {
+  display: block;
+  color: white;
+  padding: 15px 15px 15px 20px;
+  text-decoration: none;
+}
+
+.timing {
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #29B6F6;
+  border: #29B6F6 solid 2px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.info_user {
+  width: 100%;
+  height: 40vh;
+  background-color: #29B6F6;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  display: inline-block;
+  background-size: cover;
+  background-position: center;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+#button_form {
+  padding: 15px;
+  background-color: #FB8C00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* styles form */
+#Title_contact {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding-top: 5%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 25%;
+  background-color: #1a5276;
+  color: white;
+  padding: 14px 18px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #1a5276;
+}
+
+/* styles form */
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  margin-left: 15%;
+  margin-top: 15%;
+  margin-bottom: 12%;
+  margin-right: 15%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  background-color: #66BB6A;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  text-align: left;
+  color: white;
+}
+/*# sourceMappingURL=form_style.css.map */

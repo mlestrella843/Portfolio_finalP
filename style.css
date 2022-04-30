@@ -1,0 +1,396 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* Principal Image Home page little blue line to decorate*/
+.hero_image{
+    width: 100%;
+    height: 40vh;
+    background-image: url(../img/pexels-luis-gomes-546819.jpg);
+    background-color:rgb(100, 100, 100);
+    background-blend-mode: soft-light;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position:center;
+}
+.header_about{
+    width: 100%;
+    height: 40vh;  
+    background-color:#A569BD;
+    display: flex;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position:center;
+}
+
+
+.header_portfolio{
+        width: 100%;
+        height: 40vh;  
+        background-color:#FB8C00;
+        display: flex;
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: bolder;
+        font-size: 30px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-size: cover;
+        background-position:center;
+}
+
+
+header h1{
+    margin: 0%;  
+}
+
+#portfolio{
+    margin-top: 0%;
+}
+
+
+
+.about_me_foto{
+background-color: white;
+float: left;
+width: 30%;
+}
+
+.about_me_foto img{
+  width: 300px;
+  height: 300px;
+  padding: 15px;
+}
+
+.about_me_parrafo{
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  float: right;
+  width: 70%;
+  padding: 10px;
+  align-content: left;
+  font-size: 15px;
+  text-align: justify;
+}
+
+
+
+
+/* a little blue line to decorate*/
+  .decoration{
+    background-color: #FB8C00; 
+    padding-top: 0.9%; 
+    padding-bottom: 0.7%;
+    margin: top 0%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;   
+  }
+
+  .decoration2{
+    background-color: #29B6F6; 
+    padding-top: 0.9%;
+    padding-bottom: 0.7%;
+    margin: top 0%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: white;   
+  }
+
+#Name_portafolio{
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#title_project{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+#p_projects{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+#p_home_aboutMe{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+ /*Section Lenguages of About Me*/
+#lenguages{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+
+
+.experience{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.experience p{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+
+  /* Clear floats after the columns */
+  section::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+footer {
+    background-color:#66BB6A; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    padding: 15px;
+    text-align: left;
+    color: white;
+  }
+
+
+  /* set images responsive*/
+    img{
+    max-width: 100%;
+  } 
+
+
+/* Create four equal columns to icons that floats next to each other */
+  .row2{
+    background-color: white;
+  }
+  
+  .column2{
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    float: left;
+    width: 20%;
+    align-content: center;
+    padding: 15px;
+  }
+  .column2 img{
+    width: 150px;
+    height: 150px;
+    align-content: center;
+    padding-left: 20px;
+
+  }
+  
+
+/* Clear floats after the columns */
+.row2:after:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+  .column2 {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column2 {
+    width: 50%;
+  }
+  h1{ font-size: 20px;}
+  }
+
+
+
+  /* Create four equal columns in PROJECTS/PORTFOLIO that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+    h1{ font-size: 20px;}
+    }
+  
+  @media (max-width: 600px) {
+      nav, article {
+      width: 100%;
+      height: auto;
+      }
+    }
+
+    
+
+
+/*nueva nav bar*/
+nav{
+  margin: 0%;
+  width: 100%;
+  background-color: #66BB6A; 
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+ 
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+.menu-horizontal{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;   
+}
+.menu-horizontal >li >a{
+
+display: block;
+padding: 15px 20px;
+color: white;
+text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+  background-color: #FB8C00; 
+}
+
+.menu-vertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: #66BB6A; 
+}
+.menu-horizontal li:hover .menu-vertical{
+  display: block;
+}
+.menu-vertical li:hover{
+  background-color: #FB8C00;  
+}
+.menu-vertical li a{
+  display: block;
+  color: white;
+  padding:15px 15px 15px 20px;
+  text-decoration: none; 
+  
+}
+
+
+
+
+/***************** ABOUT ME, FOTO AND PHARRAFO icons that floats next to each other */
+
+/* Clear floats after the columns */
+.row2:after:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+
+
+@media screen and (max-width: 992px) {
+  .about_me_foto{
+    width: 50%;
+  }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+  .about_me_foto{
+    width: 100%;
+  }
+  h1{ font-size: 20px;}
+  }
+
+@media screen and (max-width: 992px) {
+.about_me_parrafo{
+  width: 50%;
+}
+}
+@media screen and (max-width: 600px) { 
+.about_me_parrafo {
+  width: 100%;
+}
+h1{ font-size: 20px;}
+}
+
+/*               DONT TOUCH ABOVE           */
+
+
+
+
+ /* TITLES LIKE h1 and h6, and h4 dissapear ON SCREEN 600 LESS */
+@media screen and (max-width: 600px) {
+  .div_home_aboutMe{
+    width: 100%;
+  }
+  h4{display: none;}
+
+  }
+
+@media screen and (max-width: 600px) {
+.hero_image {
+  width: 100%;
+}
+h1{ font-size: 50px;}
+h6{font-size: 20px;}
+
+} 

@@ -1,0 +1,127 @@
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wght@300&family=Poppins:wght@200&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu+Condensed&display=swap" rel="stylesheet">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    
+    
+        <title>Maria's Portfolio</title>
+        <link rel="stylesheet" href="../css/form_style.css">
+        <script src="../js/script.js"></script>
+    
+        <div>
+            <nav>
+                <ul class="menu-horizontal">
+                    <li><a href="../index.html">Home</a></li>
+                    <li>
+                        <a href="about.html">About Me</a>
+                        <ul class="menu-vertical">
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Researches</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                        <ul class="menu-vertical">
+                            <li><a href="#">Websites</a></li>
+                            <li><a href="#">Companies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+
+</head>
+<body>
+
+    <div>
+        <header class="header_contact">
+            <div id="portfolio"><h1>Contact Me</h1></div>
+            <div id="Name_portafolio"><h6> María Estrella</h6></div>    
+        </header>
+    </div>   
+
+    <div class="timing">
+        <p>you are conected since: </p>
+        <p id="demo"></p>
+        
+        <p>Please enter your age:</p>
+
+        <input id="numb">
+
+        <button type="button" onclick="myFunction()">Submit</button>
+
+        <p id="demo1"></p>
+
+
+        
+</div>
+
+    <div class="form">
+        
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        <label for="fname">Name</label>  
+         <input type="text" id="fname" name="fname" placeholder="Your name..">
+            
+          <label for="email">email</label>
+          <input type="text" id="email" name="email" placeholder="Your email..">
+          
+          <label for="message">message</label>
+          <input type="text" id="message" name="message" placeholder="Your message..">
+          
+         <!---  <button type="button" value="submit">Validate</button> -->
+         <input type="submit" value="Submit">
+  
+       </form>
+      
+    </div>    
+
+<!-- I have been trying the redireccion after the submot the form, but it didn't.
+    <button id="button_form" type="button" onclick="redireccionar()">Direccionar</button>
+ -->  
+
+
+
+<div class="info_user"> 
+    <button id="button_form" type="button" onclick="imprimeNombre()">Show User's Info</button>
+    <br> 
+    <p>The info gives by the user was:</p>
+    
+    <div id="p_name"> 
+    <p>Name : </p>
+      <p id="p_name"></p>
+    </div>
+
+    <div> 
+    <p>Email : </p>
+      <p id="p_email"></p>
+    </div>
+
+    <div> 
+    <p>Message : </p>
+      <p id="p_message"></p>
+    </div>
+</div>
+
+
+</body>
+
+
+<footer>
+    <p><h4>Page developed by Maria Estrella to TECH1101</h4></p>
+</footer>
+</html>
